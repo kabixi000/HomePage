@@ -5,19 +5,29 @@
 		<title>TESTPAGE</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="assets/css/MainStyle.css">
+		<!-- <link rel="stylesheet" type="text/css" href="assets/css/MainStyle.css"> -->
 		<link rel="icon" href="/assets/image/favicon.png">
 	</head>
 
 	<body>
-		<main>
-			<p class="Title">TEST</p>
-			<img class="MainImg" src="http://info-dam.hdb.hkd.mlit.go.jp/images/camera/10300103.jpg" alt="石狩川花咲大橋下流左岸">
-			<img class="MainImg" src="http://info-dam.hdb.hkd.mlit.go.jp/images/camera/10300102.jpg" alt="石狩川花咲大橋上流左岸">
-			<div class="ToolLinkWrap">
-				<a class="ToolLink" href="/RestrictedArea/alog.txt">log</a>
-				<a class="ToolLink" href="/RestrictedArea/alog1.txt">log2</a>
-				<a class="ToolLink" href="/RestrictedArea/kg.html">kg</a>
+		<main class="container">
+			<div class="row justify-content-center">
+				<h1 class="Title col-xs-2">TEST</h1>
+			</div>
+			<div class="row justify-content-center">
+				<img class="MainImg col-md-6" src="http://info-dam.hdb.hkd.mlit.go.jp/images/camera/10300103.jpg" alt="石狩川花咲大橋下流左岸">
+				<img class="MainImg col-md-6" src="http://info-dam.hdb.hkd.mlit.go.jp/images/camera/10300102.jpg" alt="石狩川花咲大橋上流左岸">
+			</div>
+			<div class="ToolLinkWrap row justify-content-center">
+				<p class="col-sm-2 btn btn-outline-primary m-2">
+					<a class="ToolLink" href="/RestrictedArea/alog.txt">log</a>
+				</p>
+				<p class="col-sm-2 btn btn-outline-primary m-2">
+					<a class="ToolLink" href="/RestrictedArea/alog1.txt">log2</a>
+				</p>
+				<p class="col-sm-2 btn btn-outline-primary m-2">
+					<a class="ToolLink" href="/RestrictedArea/kg.html">kg</a>
+				</p>
 			</div>
 		</main>
 
